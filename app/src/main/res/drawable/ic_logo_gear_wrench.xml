@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Outer circle background -->
+    <path
+        android:fillColor="#1E60D5"
+        android:pathData="M48,48m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0" />
+    <!-- Gear base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,24l-8,0l-1.5,5.5a20,20 0 0 0 -5.5,3.2L31.5,30.5l-5.6,5.6l2.2,5.5a20,20 0 0 0 -3.2,5.5L19.4,48.6l0,8l5.5,1.5a20,20 0 0 0 3.2,5.5l-2.2,5.5l5.6,5.6l5.5,-2.2a20,20 0 0 0 5.5,3.2l1.5,5.5l8,0l1.5,-5.5a20,20 0 0 0 5.5,-3.2l5.5,2.2l5.6,-5.6l-2.2,-5.5a20,20 0 0 0 3.2,-5.5l5.5,-1.5l0,-8l-5.5,-1.5a20,20 0 0 0 -3.2,-5.5l2.2,-5.5l-5.6,-5.6l-5.5,2.2a20,20 0 0 0 -5.5,-3.2z M48,40a8,8 0 1 1 0,16a8,8 0 1 1 0,-16z"/>
+    <!-- Diagonal Wrench Accent -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M66,26 C62,22 55,23 51,27 L43,35 C41,37 41,40 43,42 L54,53 C56,55 59,55 61,53 L69,45 C73,41 74,34 70,30 L66,34 L62,30 Z" />
+    <path
+        android:fillColor="#1E60D5"
+        android:pathData="M50,50 L28,72 C26,74 23,74 21,72 L20,71 C18,69 18,66 20,64 L42,42 Z" />
+</vector>

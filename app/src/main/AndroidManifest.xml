@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".RepairShopApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RepairShop">
+
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RepairShop.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name=".ui.items.AddItemActivity"
+            android:exported="false"
+            android:label="@string/title_add_item"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.customers.AddCustomerActivity"
+            android:exported="false"
+            android:label="@string/title_add_customer"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.customers.CustomerDetailActivity"
+            android:exported="false"
+            android:label="@string/title_customer_details"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.entry.AddEntryActivity"
+            android:exported="false"
+            android:label="@string/title_in_out_entry"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+    </application>
+
+</manifest>

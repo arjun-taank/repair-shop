@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.repairshop.tracker.app-mergeDebugResources-39:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\9.5.0\\transforms\\900d1a158c33f111cd215371fd5355e8\\transformed\\material-1.14.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

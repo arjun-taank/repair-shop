@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_cyan">#06B6D4</color>
+    <color name="background_light">#F8FAFC</color>
+    <color name="badge_in_bg">#D1FAE5</color>
+    <color name="badge_in_text">#065F46</color>
+    <color name="badge_offline_bg">#FEE2E2</color>
+    <color name="badge_offline_text">#DC2626</color>
+    <color name="badge_out_bg">#FEF3C7</color>
+    <color name="badge_out_text">#92400E</color>
+    <color name="black">#FF000000</color>
+    <color name="border_subtle">#E2E8F0</color>
+    <color name="divider_color">#E2E8F0</color>
+    <color name="drawer_bg">#0F1E36</color>
+    <color name="drawer_item_active">#1E3A68</color>
+    <color name="primary_blue">#1E60D5</color>
+    <color name="primary_blue_dark">#1244A0</color>
+    <color name="primary_blue_light">#EBF2FE</color>
+    <color name="splash_bg_end">#14326D</color>
+    <color name="splash_bg_start">#0B1B3D</color>
+    <color name="stat_blue_bg">#EFF6FF</color>
+    <color name="stat_blue_icon">#3B82F6</color>
+    <color name="stat_blue_text">#1D4ED8</color>
+    <color name="stat_green_bg">#ECFDF5</color>
+    <color name="stat_green_icon">#10B981</color>
+    <color name="stat_green_text">#047857</color>
+    <color name="stat_orange_bg">#FFFBEB</color>
+    <color name="stat_orange_icon">#F59E0B</color>
+    <color name="stat_orange_text">#B45309</color>
+    <color name="stat_purple_bg">#FAF5FF</color>
+    <color name="stat_purple_icon">#A855F7</color>
+    <color name="stat_purple_text">#7E22CE</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_payment">Add Payment</string>
+    <string name="address_optional">Address (Optional)</string>
+    <string name="advance_payment">Advance Paid (₹)</string>
+    <string name="all_items">All Items</string>
+    <string name="app_name">Repairing Shop</string>
+    <string name="app_subtitle">Inventory &amp; Customer Tracker</string>
+    <string name="app_tagline">Manage Items · Track Customers\nKeep Your Business Organized</string>
+    <string name="badge_offline">Offline</string>
+    <string name="brand_optional">Brand (Optional)</string>
+    <string name="category_required">Category *</string>
+    <string name="continue_without_internet">Continue without internet</string>
+    <string name="current_items">Current Items</string>
+    <string name="customer_name_required">Customer Name *</string>
+    <string name="data_will_sync">Data will sync when online</string>
+    <string name="description_optional">Description (Optional)</string>
+    <string name="drawer_offline_status">Offline Mode\nYour data is saved locally</string>
+    <string name="entry_date">Date *</string>
+    <string name="greeting_sub">Here\'s what\'s happening today</string>
+    <string name="greeting_user">Hello, Rajat 👋</string>
+    <string name="in_entry">IN Entry</string>
+    <string name="in_stock">In Stock</string>
+    <string name="item_name_required">Item Name *</string>
+    <string name="loading">Loading…</string>
+    <string name="login">Login</string>
+    <string name="login_footer">Keep your data safe • Work anytime</string>
+    <string name="model_optional">Model (Optional)</string>
+    <string name="offline_feature_1">All data stored locally</string>
+    <string name="offline_feature_2">Add / Edit / Delete items</string>
+    <string name="offline_feature_3">Add / Edit customers</string>
+    <string name="offline_feature_4">Record in &amp; out entries</string>
+    <string name="offline_feature_5">View transaction history</string>
+    <string name="offline_mode_subtitle">Working without internet</string>
+    <string name="offline_mode_title">Offline Mode</string>
+    <string name="or">OR</string>
+    <string name="out_entry">OUT Entry</string>
+    <string name="out_stock">Out Stock</string>
+    <string name="paid_advance">Paid (Advance)</string>
+    <string name="password">Password</string>
+    <string name="payment_history">Payment History</string>
+    <string name="phone_number_required">Phone Number *</string>
+    <string name="recent_entries">Recent Entries</string>
+    <string name="remaining_balance">Remaining Balance</string>
+    <string name="remarks_optional">Remarks (Optional)</string>
+    <string name="repair_charge">Repair Charge (₹)</string>
+    <string name="repair_summary">Repair Summary</string>
+    <string name="save_customer">Save Customer</string>
+    <string name="save_entry">Save Entry</string>
+    <string name="save_item">Save Item</string>
+    <string name="search_customer">Search customer…</string>
+    <string name="select_customer">Select Customer *</string>
+    <string name="select_item">Select Item *</string>
+    <string name="stat_items_in">Items IN</string>
+    <string name="stat_items_out">Items OUT</string>
+    <string name="stat_total_customers">Total Customers</string>
+    <string name="stat_total_items">Total Items</string>
+    <string name="tab_all">All</string>
+    <string name="tab_in">IN</string>
+    <string name="tab_out">OUT</string>
+    <string name="title_add_customer">Add Customer</string>
+    <string name="title_add_item">Add Item</string>
+    <string name="title_customer_details">Customer Details</string>
+    <string name="title_customers">Customers</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_history">History</string>
+    <string name="title_in_out_entry">In / Out Entry</string>
+    <string name="title_items">Items</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_settings">Settings</string>
+    <string name="total_repair_charge">Total Repair Charge</string>
+    <string name="username">Username</string>
+    <string name="view_all">View All</string>
+    <string name="view_history">View History</string>
+    <string name="work_offline">Work Offline</string>
+    <style name="CardViewStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/border_subtle</item>
+        <item name="cardBackgroundColor">@color/surface_white</item>
+    </style>
+    <style name="OutlinedInputStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/primary_blue</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+    </style>
+    <style name="PrimaryButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/primary_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+    <style name="Theme.RepairShop" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent_cyan</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+    <style name="Theme.RepairShop.Splash" parent="Theme.RepairShop">
+        <item name="android:statusBarColor">@color/splash_bg_start</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

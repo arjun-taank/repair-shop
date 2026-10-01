@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.repairshop.tracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <permission
+11-->[androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\714c9daef6405bb245dfc1380bffbed7\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.repairshop.tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\714c9daef6405bb245dfc1380bffbed7\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\714c9daef6405bb245dfc1380bffbed7\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.repairshop.tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\714c9daef6405bb245dfc1380bffbed7\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\714c9daef6405bb245dfc1380bffbed7\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:4:5-57:19
+18        android:name="com.repairshop.tracker.RepairShopApp"
+18-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:5:9-38
+19        android:allowBackup="true"
+19-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.16.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\714c9daef6405bb245dfc1380bffbed7\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+22-->INJECTED
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:7:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:8:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:9:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:10:9-35
+27        android:theme="@style/Theme.RepairShop" >
+27-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:11:9-48
+28        <activity
+28-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:13:9-21:20
+29            android:name="com.repairshop.tracker.ui.splash.SplashActivity"
+29-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:14:13-53
+30            android:exported="true"
+30-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:15:13-36
+31            android:theme="@style/Theme.RepairShop.Splash" >
+31-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:16:13-59
+32            <intent-filter>
+32-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:17:13-20:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:18:17-69
+33-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:19:17-77
+35-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:19:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:23:9-26:58
+39            android:name="com.repairshop.tracker.ui.auth.LoginActivity"
+39-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:24:13-50
+40            android:exported="false"
+40-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:25:13-37
+41            android:windowSoftInputMode="adjustResize" />
+41-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:26:13-55
+42        <activity
+42-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:28:9-31:55
+43            android:name="com.repairshop.tracker.ui.main.MainActivity"
+43-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:29:13-49
+44            android:exported="false"
+44-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:30:13-37
+45            android:windowSoftInputMode="adjustPan" />
+45-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:31:13-52
+46        <activity
+46-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:33:9-37:66
+47            android:name="com.repairshop.tracker.ui.items.AddItemActivity"
+47-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:34:13-53
+48            android:exported="false"
+48-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:35:13-37
+49            android:label="@string/title_add_item"
+49-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:36:13-51
+50            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+50-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:37:13-63
+51        <activity
+51-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:39:9-43:66
+52            android:name="com.repairshop.tracker.ui.customers.AddCustomerActivity"
+52-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:40:13-61
+53            android:exported="false"
+53-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:41:13-37
+54            android:label="@string/title_add_customer"
+54-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:42:13-55
+55            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+55-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:43:13-63
+56        <activity
+56-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:45:9-49:66
+57            android:name="com.repairshop.tracker.ui.customers.CustomerDetailActivity"
+57-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:46:13-64
+58            android:exported="false"
+58-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:47:13-37
+59            android:label="@string/title_customer_details"
+59-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:48:13-59
+60            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+60-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:49:13-63
+61        <activity
+61-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:51:9-55:66
+62            android:name="com.repairshop.tracker.ui.entry.AddEntryActivity"
+62-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:52:13-54
+63            android:exported="false"
+63-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:53:13-37
+64            android:label="@string/title_in_out_entry"
+64-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:54:13-55
+65            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+65-->C:\Users\Dell\Documents\Repair Shop\app\src\main\AndroidManifest.xml:55:13-63
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\646cb1130bea226c9a8462fd276169bd\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\646cb1130bea226c9a8462fd276169bd\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.repairshop.tracker.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\646cb1130bea226c9a8462fd276169bd\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\646cb1130bea226c9a8462fd276169bd\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\646cb1130bea226c9a8462fd276169bd\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\646cb1130bea226c9a8462fd276169bd\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\646cb1130bea226c9a8462fd276169bd\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.5.0\transforms\7594ec2ad53bb4a4d00d808aa3c3eeb2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.5.0\transforms\7594ec2ad53bb4a4d00d808aa3c3eeb2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Dell\.gradle\caches\9.5.0\transforms\7594ec2ad53bb4a4d00d808aa3c3eeb2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+79                android:value="androidx.startup" />
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+80        </provider>
+81
+82        <receiver
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+83            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+84            android:directBootAware="false"
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+85            android:enabled="true"
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+86            android:exported="true"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+87            android:permission="android.permission.DUMP" >
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+89                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+92                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+95                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+98                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Dell\.gradle\caches\9.5.0\transforms\214e1bcdfe9c0401faf5b66ae4b20003\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+99            </intent-filter>
+100        </receiver>
+101    </application>
+102
+103</manifest>

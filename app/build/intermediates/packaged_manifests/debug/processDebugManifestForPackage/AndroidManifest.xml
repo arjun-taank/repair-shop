@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.repairshop.tracker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="36" />
+
+    <permission
+        android:name="com.repairshop.tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.repairshop.tracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.repairshop.tracker.RepairShopApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RepairShop" >
+        <activity
+            android:name="com.repairshop.tracker.ui.splash.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RepairShop.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.repairshop.tracker.ui.auth.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.repairshop.tracker.ui.main.MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.repairshop.tracker.ui.items.AddItemActivity"
+            android:exported="false"
+            android:label="@string/title_add_item"
+            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+        <activity
+            android:name="com.repairshop.tracker.ui.customers.AddCustomerActivity"
+            android:exported="false"
+            android:label="@string/title_add_customer"
+            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+        <activity
+            android:name="com.repairshop.tracker.ui.customers.CustomerDetailActivity"
+            android:exported="false"
+            android:label="@string/title_customer_details"
+            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+        <activity
+            android:name="com.repairshop.tracker.ui.entry.AddEntryActivity"
+            android:exported="false"
+            android:label="@string/title_in_out_entry"
+            android:parentActivityName="com.repairshop.tracker.ui.main.MainActivity" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.repairshop.tracker.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

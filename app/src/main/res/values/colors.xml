@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary_blue">#1E60D5</color>
+    <color name="primary_blue_dark">#1244A0</color>
+    <color name="primary_blue_light">#EBF2FE</color>
+    <color name="accent_cyan">#06B6D4</color>
+
+    <!-- Splash and Dark Accents -->
+    <color name="splash_bg_start">#0B1B3D</color>
+    <color name="splash_bg_end">#14326D</color>
+    <color name="drawer_bg">#0F1E36</color>
+    <color name="drawer_item_active">#1E3A68</color>
+
+    <!-- Stat Card Colors -->
+    <color name="stat_green_bg">#ECFDF5</color>
+    <color name="stat_green_icon">#10B981</color>
+    <color name="stat_green_text">#047857</color>
+
+    <color name="stat_blue_bg">#EFF6FF</color>
+    <color name="stat_blue_icon">#3B82F6</color>
+    <color name="stat_blue_text">#1D4ED8</color>
+
+    <color name="stat_orange_bg">#FFFBEB</color>
+    <color name="stat_orange_icon">#F59E0B</color>
+    <color name="stat_orange_text">#B45309</color>
+
+    <color name="stat_purple_bg">#FAF5FF</color>
+    <color name="stat_purple_icon">#A855F7</color>
+    <color name="stat_purple_text">#7E22CE</color>
+
+    <!-- Status Badges -->
+    <color name="badge_in_bg">#D1FAE5</color>
+    <color name="badge_in_text">#065F46</color>
+    <color name="badge_out_bg">#FEF3C7</color>
+    <color name="badge_out_text">#92400E</color>
+    <color name="badge_offline_bg">#FEE2E2</color>
+    <color name="badge_offline_text">#DC2626</color>
+
+    <!-- Neutrals & Surfaces -->
+    <color name="background_light">#F8FAFC</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="divider_color">#E2E8F0</color>
+    <color name="border_subtle">#E2E8F0</color>
+
+    <!-- Generic Black/White -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

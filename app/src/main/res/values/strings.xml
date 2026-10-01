@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Repairing Shop</string>
+    <string name="app_subtitle">Inventory &amp; Customer Tracker</string>
+    <string name="app_tagline">Manage Items · Track Customers\nKeep Your Business Organized</string>
+    <string name="loading">Loading…</string>
+
+    <!-- Auth -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="work_offline">Work Offline</string>
+    <string name="continue_without_internet">Continue without internet</string>
+    <string name="login_footer">Keep your data safe • Work anytime</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_items">Items</string>
+    <string name="title_customers">Customers</string>
+    <string name="title_history">History</string>
+    <string name="title_add_item">Add Item</string>
+    <string name="title_add_customer">Add Customer</string>
+    <string name="title_customer_details">Customer Details</string>
+    <string name="title_in_out_entry">In / Out Entry</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_logout">Logout</string>
+
+    <!-- Dashboard -->
+    <string name="greeting_user">Hello, Rajat 👋</string>
+    <string name="greeting_sub">Here\'s what\'s happening today</string>
+    <string name="badge_offline">Offline</string>
+    <string name="stat_total_items">Total Items</string>
+    <string name="stat_total_customers">Total Customers</string>
+    <string name="stat_items_in">Items IN</string>
+    <string name="stat_items_out">Items OUT</string>
+    <string name="recent_entries">Recent Entries</string>
+    <string name="view_all">View All</string>
+
+    <!-- Items -->
+    <string name="all_items">All Items</string>
+    <string name="in_stock">In Stock</string>
+    <string name="out_stock">Out Stock</string>
+    <string name="item_name_required">Item Name *</string>
+    <string name="category_required">Category *</string>
+    <string name="brand_optional">Brand (Optional)</string>
+    <string name="model_optional">Model (Optional)</string>
+    <string name="description_optional">Description (Optional)</string>
+    <string name="save_item">Save Item</string>
+
+    <!-- Customers -->
+    <string name="search_customer">Search customer…</string>
+    <string name="customer_name_required">Customer Name *</string>
+    <string name="phone_number_required">Phone Number *</string>
+    <string name="address_optional">Address (Optional)</string>
+    <string name="save_customer">Save Customer</string>
+    <string name="repair_summary">Repair Summary</string>
+    <string name="total_repair_charge">Total Repair Charge</string>
+    <string name="paid_advance">Paid (Advance)</string>
+    <string name="remaining_balance">Remaining Balance</string>
+    <string name="current_items">Current Items</string>
+    <string name="payment_history">Payment History</string>
+    <string name="add_payment">Add Payment</string>
+    <string name="view_history">View History</string>
+
+    <!-- In / Out Entry -->
+    <string name="in_entry">IN Entry</string>
+    <string name="out_entry">OUT Entry</string>
+    <string name="select_item">Select Item *</string>
+    <string name="select_customer">Select Customer *</string>
+    <string name="entry_date">Date *</string>
+    <string name="remarks_optional">Remarks (Optional)</string>
+    <string name="save_entry">Save Entry</string>
+    <string name="repair_charge">Repair Charge (₹)</string>
+    <string name="advance_payment">Advance Paid (₹)</string>
+
+    <!-- History -->
+    <string name="tab_all">All</string>
+    <string name="tab_in">IN</string>
+    <string name="tab_out">OUT</string>
+
+    <!-- Offline Mode Info -->
+    <string name="offline_mode_title">Offline Mode</string>
+    <string name="offline_mode_subtitle">Working without internet</string>
+    <string name="offline_feature_1">All data stored locally</string>
+    <string name="offline_feature_2">Add / Edit / Delete items</string>
+    <string name="offline_feature_3">Add / Edit customers</string>
+    <string name="offline_feature_4">Record in &amp; out entries</string>
+    <string name="offline_feature_5">View transaction history</string>
+    <string name="data_will_sync">Data will sync when online</string>
+    <string name="drawer_offline_status">Offline Mode\nYour data is saved locally</string>
+</resources>
